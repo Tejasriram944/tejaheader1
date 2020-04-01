@@ -1,0 +1,29 @@
+html:
+====
+
+            <div class="bottom-nav">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+            </div>
+
+
+
+css:
+===
+
+.bottom-nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    bottom: 20%;
+    right: 0;
+    height: 28%;
+}
+
+.fa-facebook:before ,.fa-twitter:before, .fa-instagram:before {
+    content: "\f09a";
+    color: #a831c5;
+    font-size: 28px;
+}
